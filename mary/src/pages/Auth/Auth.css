@@ -1,0 +1,163 @@
+.auth {
+  /* background: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  height: 100vh !important;
+}
+
+.auth.signup .auth-inner {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.auth .auth-inner {
+  background-color: white;
+  border-radius: 10px;
+  min-width: 341px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.auth .auth-inner .header {
+  background-color: #92828c;
+  padding: 30px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.auth .auth-inner .header a {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.auth .anticon {
+  border: none;
+  font-size: 23px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.auth form {
+    margin: 15px;
+}
+
+.login .floating-label-group {
+    margin-bottom: 15px;
+}
+
+.auth .ant-input-affix-wrapper-sm {
+  border: none !important;
+  background: #f7f7f7 !important;
+}
+
+.auth .ant-input-affix-wrapper-sm {
+  padding: 2px 7px !important;
+  padding-left: 8px;
+  border-radius: 28px;
+}
+
+.auth .ant-input {
+  border: none;
+  background: #f7f7f7;
+}
+
+.auth .floating-label-group .anticon {
+  font-size: 15px;
+}
+
+.auth .floating-label-group .ant-input-prefix {
+  background: #ffffff !important;
+  border-radius: 23px;
+  padding-left: 0px;
+}
+
+.auth .ant-input-affix-wrapper {
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.auth .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: #92828c;
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+.auth .ant-input-affix-wrapper:hover {
+  border-color: #92828c;
+  border-right-width: 1px !important;
+}
+.auth .ant-input-affix-wrapper:hover {
+  border: none !important;
+}
+
+.auth .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border: 1px solid #92828c !important;
+  z-index: 1;
+}
+
+.auth .ant-input-affix-wrapper-focused {
+  border: 1px solid #92828c !important;
+  box-shadow: none !important;
+}
+
+.auth .ant-input-affix-wrapper:focus {
+  border: 1px solid #92828c !important;
+  box-shadow: none !important;
+}
+
+.auth .form-check-input:checked {
+  background-color: #92828c;
+  border-color: #92828c;
+  box-shadow: none;
+}
+
+.auth
+  .auth-inner
+  .ant-form-item-has-feedback.ant-form-item-has-success
+  .ant-form-item-children-icon,
+.auth
+  .auth-inner
+  .ant-form-item-has-feedback.ant-form-item-has-warning
+  .ant-form-item-children-icon,
+.auth
+  .auth-inner
+  .ant-form-item-has-feedback.ant-form-item-has-error
+  .ant-form-item-children-icon,
+.auth
+  .auth-inner
+  .ant-form-item-has-feedback.ant-form-item-is-validating
+  .ant-form-item-children-icon {
+  top: 30% !important;
+  width: 40px !important;
+}
+
+.auth a.pass {
+  color: #92828c;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.auth .auth-inner .submit-btn-container {
+  text-align: center;
+  margin-top: 23px;
+}
+
+.auth .auth-inner .submit-btn-container .btn {
+  background-color: #92828c;
+  color: white;
+  margin: 0px;
+  width: 80%;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+
+.auth .auth-inner .update-password .ant-input {
+  background-color: white !important;
+}
+
+.auth-inner .ant-btn {
+  height: auto !important;
+}
